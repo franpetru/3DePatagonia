@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+        "nombre":"Apretador de pasta dental",
+        "imagenIndex":"./img/productos/apretador/apretadorIndex.jpeg",
+        "imagen2":"./img/productos/apretador/apretador2.jpeg",
+        "imagen3":"./img/productos/apretador/apretador3.jpeg",
+        "descripcion":  "MATERIAL IMPRESOEN PLA COLORES VARIOS",
+        "precio":"$600"
+    },
+    {
+        "id":2,
+        "nombre":"Despolvillador de yerba",
+        "imagenIndex":"img/productos/despolvillador/despolvilladorIndex.png",
+        "imagen2":"img/productos/despolvillador/despolvillador2.png",
+        "imagen3":"img/productos/despolvillador/despolvillador2.png",
+        "descripcion":  "MATERIAL IMPRESOEN PLA COLORES VARIOS",
+        "precio":"$600"
+    },
+    {
+        "id":3,
+        "nombre":"Jabonera",
+        "imagenIndex":"img/productos/jabonera/jaboneraIndex.jpeg",
+        "imagen2":"img/productos/jabonera/jabonera2.jpeg",
+        "imagen3":"img/productos/jabonera/jabonera3.jpeg",
+        "precio":"$500"
+    },
+    {
+        "id":4,
+        "nombre":"Muela para cepillo de dientes",
+        "imagenIndex":"./img/productos/muela/muelaIndex.jpeg",
+        "imagen2":"img/productos/muela/muela2.jpeg",
+        "imagen3":"img/productos/muela/muela3.jpeg",
+        "precio":"$500"
+    },
+    {
+        "id":5,
+        "nombre":"Pica estrella de la muerte",
+        "imagenIndex":"img/productos/estrella/estrellaIndex.jpeg",
+        "imagen2":"img/productos/estrella/estrella2.jpeg",
+        "imagen3":"img/productos/estrella/estrella3.jpeg",
+        "precio":"$1300"
+    },
+    {
+        "id":6,
+        "nombre":"Pica Oreo",
+        "imagenIndex":"img/productos/oreo/oreoIndex.jpg",
+        "imagen2":"img/productos/oreo/oreo2.jpg",
+        "imagen3":"img/productos/oreo/oreo3.jpg",
+        "precio":"$600"
+    }
+]
