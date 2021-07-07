@@ -242,8 +242,10 @@ function executeAPP(data) {
     // Renderizamos los productos
     appendItems(products);
 
+    carrito();
+    
     // Seteamos el evento para filtrar y mostrar popup
     setFilterEvent(products);
 
-    carrito();
+    
 }
