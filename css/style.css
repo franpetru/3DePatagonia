@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;800&display=swap");
+:root {
+  --miAncho: 100vw; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  text-decoration-line: none; }
+
+html { }
+
+body {
+  background-image: url(../img/fondoLanin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: poppins;
+  /*--NAVBAR--------------------------------------------------------*/
+  /*--NAVBAR--------------------------------------------------------*/ }
+  body .navbar-light .navbar-brand {
+    color: white; }
+  body .navbar-light .navbar-nav .nav-link, body .navbar-light .navbar-nav .show > .nav-link {
+    color: white; }
+  body #navBarId {
+    background-color: rgba(70, 56, 56, 0.1);
+    color: white;
+    font-size: 20px;
+    font-family: poppins; }
+    body #navBarId #navbarNav {
+      flex-flow: row-reverse; }
+    body #navBarId .navBarBrand {
+      font-size: 30px; }
+    body #navBarId .carritoNav {
+      padding: 0 10px;
+      font-size: 30px;
+      color: white; }
+    body #navBarId .carritoNav:hover {
+      color: black; }
+
+/*--MAIN CONTENIDO--------------------------------------------------------*/
+/*--MAIN CONTENIDO--------------------------------------------------------*/
+.mainContainer {
+  width: var(--miAncho);
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center; }
+  .mainContainer .card {
+    background-color: rgba(91, 99, 136, 0.4);
+    color: white; }
+  .mainContainer .cardNombre {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .mainContainer .botones {
+    display: flex;
+    justify-content: space-around; }
+    .mainContainer .botones .addCartBtn {
+      background-color: #333333; }
+
+#popUp {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 400px 250px 50px 50px 50px; }
+  #popUp .imagenSecundaria {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px; }
+  #popUp .nombreItem {
+    margin-top: 10px;
+    text-transform: uppercase; }
+  #popUp .botones {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+    #popUp .botones .addCartBtn {
+      background-color: #333333; }
+
+.carritoContainer {
+  display: flex;
+  justify-content: flex-end; }
+  .carritoContainer .carritoDiv {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(70, 56, 56, 0.5);
+    height: auto;
+    width: 100vw; }
+    .carritoContainer .carritoDiv .shopping-cart {
+      width: 100%; }
+      .carritoContainer .carritoDiv .shopping-cart p, .carritoContainer .carritoDiv .shopping-cart .shoppingCartItemTitle {
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-size: 20px; }
+      .carritoContainer .carritoDiv .shopping-cart .shoppingCartItemTitle {
+        margin-left: 20px; }
+    .carritoContainer .carritoDiv .shopping-cart-header h6 {
+      color: whitesmoke;
+      text-transform: uppercase;
+      font-size: 20px; }
+    .carritoContainer .carritoDiv img {
+      width: 150px;
+      height: 150px; }
+    .carritoContainer .carritoDiv h1 {
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      color: white;
+      font-size: 40px; }
+    .carritoContainer .carritoDiv .inputQuantity {
+      width: 60px; }
