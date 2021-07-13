@@ -25,19 +25,41 @@ body {
     color: white; }
   body #navBarId {
     background-color: rgba(70, 56, 56, 0.1);
-    color: white;
-    font-size: 20px;
-    font-family: poppins; }
+    background-color: rgba(40, 26, 23, 0.5);
+    color: white; }
+    body #navBarId .boldBrandName {
+      font-size: 30px;
+      color: white;
+      font-weight: bolder; }
+    body #navBarId .lightBrandName {
+      font-size: 30px;
+      text-align: center;
+      text-justify: auto;
+      color: white;
+      font-weight: normal; }
     body #navBarId #navbarNav {
       flex-flow: row-reverse; }
     body #navBarId .navBarBrand {
       font-size: 30px; }
+    body #navBarId .navBarBrand:hover .boldBrandName {
+      color: #98aec5; }
+    body #navBarId .navBarBrand:hover .lightBrandName {
+      color: #a8e1fe; }
+    body #navBarId .brandImg {
+      display: flex;
+      margin-left: 25vw; }
+    body #navBarId .nav-link {
+      font-size: 23px; }
+    body #navBarId .nav-link:hover {
+      color: #98aec5; }
+    body #navBarId .nav-link.active {
+      color: #98aec5; }
     body #navBarId .carritoNav {
       padding: 0 10px;
       font-size: 30px;
       color: white; }
     body #navBarId .carritoNav:hover {
-      color: black; }
+      color: #98aec5; }
 
 /*--MAIN CONTENIDO--------------------------------------------------------*/
 /*--MAIN CONTENIDO--------------------------------------------------------*/
@@ -53,6 +75,7 @@ body {
   align-items: center; }
   .mainContainer .card {
     background-color: rgba(91, 99, 136, 0.4);
+    background-color: rgba(108, 135, 156, 0.5);
     color: white; }
   .mainContainer .cardNombre {
     text-transform: uppercase;
@@ -62,6 +85,8 @@ body {
     justify-content: space-around; }
     .mainContainer .botones .addCartBtn {
       background-color: #333333; }
+    .mainContainer .botones .swal2-confirm {
+      background-color: #6c879c; }
 
 #popUp {
   display: grid;
@@ -117,3 +142,14 @@ body {
       font-size: 40px; }
     .carritoContainer .carritoDiv .inputQuantity {
       width: 60px; }
+
+.footerContainer {
+  width: 100vw;
+  height: 300px;
+  margin-top: 50px;
+  background-color: rgba(177, 107, 95, 0.3);
+  display: flex; }
+  .footerContainer .footerBrandImg img {
+    width: 300px;
+    height: auto;
+    justify-self: center; }
